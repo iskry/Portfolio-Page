@@ -10,44 +10,117 @@
 </head>
 <body>
 <!-- The sidebar -->
-<div class="sidebar">
-    <div id="titleDiv" class="text-center ">
-        <img src="./assets/img/ava.jpeg" class="img-thumbnail border rounded-circle shadow"  alt="">
-        <h3>Troy Sparks</h3>
-    </div>
-    <a href="#about" class="text-white">About</a>
-    <a href="#projects" class="text-white">Projects</a>
-    <a href="#experience" class="text-white">Experience</a>
-    <a href="#contact" class="text-white">Contact</a>
+<div class="bg-dark sidebar">
+  <div id="titleDiv" class="text-center py-3">
+    <img src="./assets/img/ava.png" class="img-thumbnail border rounded-circle shadow" alt="">
+    <h3 class="text-white">Troy Sparks</h3>
   </div>
+  <a href="#about" class="text-white">About</a>
+  <a href="#projects" class="text-white">Group Projects</a>
+  <a href="#experience" class="text-white">Personal Projects</a>
+  <a href="#contact" class="text-white">Contact</a>
+</div>
   
-  <!-- Page content -->
-  <div class="content">
-    <section id="about" class="text-white">
-      <p>
-        Technologically advanced and highly adaptable professional; ready to excel in a challenging role as a Software Developer to add value in a corporate sector.
-      </p>
+<!-- Page content -->
+<div class="content">
+  <!-- About Section -->
+  <section id="about" class="text-white bg-dark ">
+    <p>
+      Technologically advanced and highly adaptable professional; ready to excel in a challenging role as a Software Developer to add value in a corporate sector.
+    </p>
+  </section>
+  
+  <!-- Group Projects Section -->
+  <section id="projects" class="text-white bg-dark ">
+    <section class="bg-dark ">
+      <a href="https://github.com/iskry/LegendofNelda">
+        <img class="img-thumbnail" src="./assets/img/nelda.png" alt="Legend of Nelda">
+      </a>
+      <a href="https://github.com/manyLizards/lawffice">
+        <img class="img-thumbnail" src="./assets/img/lawffice_home.png" alt="lawffice">
+      </a>
     </section>
+  </section>
 
-    <section id="Projects" class="text-white">
-      <p>
-        Technologically advanced and highly adaptable professional; ready to excel in a challenging role as a Software Developer to add value in a corporate sector.
-      </p>
-    </section>
-
-    <section id="experience" class="text-white">
-      <p>
-        Technologically advanced and highly adaptable professional; ready to excel in a challenging role as a Software Developer to add value in a corporate sector.
-      </p>
-    </section>
-
-    <section id="contact" class="text-white">
-      <p>
-        Technologically advanced and highly adaptable professional; ready to excel in a challenging role as a Software Developer to add value in a corporate sector.
-      </p>
-    </section>
-    
+  <!-- Personal Projects Section -->
+  <section id="experience" class="text-white bg-dark ">
+    <div class="container bg-dark ">
+      <div class="row">
+        <!-- ReadMe Generator -->
+        <div class="col-md-4">
+          <a href="https://github.com/iskry/readmeGenerator">
+            <img class="img-thumbnail" src="./assets/img/READMEgen.gif" alt="ReadMe Generator">
+          </a>
+          <p class="text-white">A tool that quickly generates professional README files for any project.</p>
+  <!-- Team Profile Generator -->
+    </div>
+    <div class="col-md-4">
+      <a href="https://github.com/iskry/teamProfileWebPageGenerator">
+        <img class="img-thumbnail" src="./assets/img/TeamGenGif.gif" alt="Team Generator">
+      </a>
+      <p class="text-white">A command-line application that generates a webpage to showcase a team of employees, including their name, role, ID and email.</p>
+    </div>
+    <!-- Weather Dashboard -->
+    <div class="col-md-4">
+      <a href="https://github.com/iskry/WeatherApp">
+        <img class="img-thumbnail" src="./assets/img/weatherdash.png" alt="Weather Dashboard">
+      </a>
+      <p class="text-white">A simple weather dashboard that displays the current weather and forecast for a given location.</p>
+    </div>
   </div>
-    <script src="./assets/script.js"></script>
-</body>
-</html>
+  <div class="row">
+    <!-- Work Day Scheduler -->
+    <div class="col-md-4">
+      <a href="https://github.com/iskry/workDayScheduler">
+        <img class="img-thumbnail" src="./assets/img/workDayScheduler.png" alt="work day scheduler">
+      </a>
+      <p class="text-white">A simple calendar application that allows the user to save events for each hour of the work day.</p>
+    </div>
+    <!-- JS Timed Quiz -->
+    <div class="col-md-4">
+      <a href="https://github.com/iskry/jsTimedQuiz">
+        <img class="img-thumbnail" src="./assets/img/jsQuiz.png" alt="js timed quiz">
+      </a>
+      <p class="text-white">A timed quiz application that tests the user's knowledge of JavaScript, including multiple choice questions and a final score.</p>
+    </div>
+    <!-- Password Generator -->
+    <div class="col-md-4">
+    <a href="https://github.com/iskry/passGenerator">
+    <img class="img-thumbnail" src="./assets/img/passgenpage.png" alt="pass generator">
+    </a>
+    <p class="text-white">A password generator that allows the user to choose the length and complexity of a generated password.</p>
+    </div>
+    </div>
+    <div class="row">
+    <!-- Portfolio Site -->
+    <div class="col-md-4">
+    <a href="https://github.com/iskry/Portfolio-Page">
+    <img class="img-thumbnail" src="./assets/img/portfoliosite.png" alt="preview of portfolio site">
+    </a>
+    <p class="text-white">A responsive portfolio website that showcases the developer's skills and past projects.</p>
+    </div>
+    <!-- Horiseon Webpage Accessibility Upgrade -->
+    <div class="col-md-4">
+    <a href="https://github.com/iskry/horiseon-webpage-accessibility-upgrade">
+    <img class="img-thumbnail" src="./assets/img/horiseon.png" alt="preview of horiseon site">
+    </a>
+    <p class="text-white">An accessibility upgrade of a marketing website for the company Horiseon that includes semantic HTML, ARIA roles and WAI-ARIA landmarks.</p>
+    </div>
+    </div>
+    </div>
+    
+      </section>
+      <!-- Contact Section -->
+      <section id="contact" class="text-white bg-dark">
+        <div class="text-center py-5">
+          <a href="mailto:troyspar@amazon.com?">
+            <button class="btn btn-secondary btn-lg mr-3" id="btnEmail">E-mail</button>
+          </a>
+          <a href="https://github.com/iskry">
+            <button class="btn btn-secondary btn-lg" id="btnGit">GitHub</button>
+          </a>
+        </div>
+      </section>
+    </div>
+    </body>
+    </html>

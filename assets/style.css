@@ -1,3 +1,8 @@
+body {
+  background-color:#1A1A1D;
+}
+
+
 h3 {
     margin: 2;
     font-size: 1.5em;
@@ -16,7 +21,6 @@ h3 {
     margin: 0;
     padding: 20px;
     width: 200px;
-    background-color: #C3073F;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -44,7 +48,6 @@ h3 {
   }
 
   section {
-    background-color: #C3073F;
     padding: 30px;
     margin-top: 20px;
   }
